@@ -1,0 +1,164 @@
+html {
+  box-sizing: border-box;
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background-color: #e6eff6;
+  padding: 20px;
+}
+
+h2,
+h4,
+p {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.card {
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.top-section {
+  width: 100%;
+  height: 45%;
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+.top-section h2 {
+  margin-bottom: 20px;
+  color: #2ab2af;
+}
+
+.top-section h4 {
+  margin-bottom: 10px;
+  color: #c0df34;
+}
+
+.top-section p {
+  color: #a8afbd;
+}
+
+.bottom-section {
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+.bottom-left {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 25px;
+}
+
+.bottom-left h4 {
+  margin-bottom: 25px;
+}
+
+.price-container {
+  margin-bottom: 20px;
+}
+
+.price,
+.per-time {
+  display: inline-block;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.per-time{
+    position: relative;
+    top: -3px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+
+.bottom-left p{
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+button {
+  color: white;
+  background-color: #c0df34;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+button:hover {
+  color: white;
+  background-color: #439b45;
+  transform: scale(1.02);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  cursor: pointer;
+}
+
+.bottom-right {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #4cbdbb;
+  padding: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.author{
+  margin-top: 100px;
+  color: #a8afbd;
+}
+
+.author a{
+  color: #a8afbd;
+}
+
+.author:hover{
+  color: #2ab2af;
+  transition: ease-in-out;
+}
+
+@media (min-width: 576px) {
+  .card{
+  width: 550px;
+  height: 400px;
+  }
+
+  .bottom-left,.bottom-right{
+    width: 50%;
+  }
+}
